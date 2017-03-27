@@ -1,0 +1,297 @@
+/*--Reset CSS--*/
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+/*--Main CSS--*/
+.homepage-slider-warapper{}
+.homepage-slider{}
+.slider-1{
+background: url(images/fullimage1.jpg);
+}
+.slider-2{
+background: url(images/fullimage2.jpg);
+}
+.slider-3{
+background: url(images/fullimage3.jpg);
+}
+.slider-4{
+background: url(images/fullimage4.jpg);
+}
+.single-sluder-item{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 400px;
+}
+.slider-item-table{
+    width: 100%;
+    height: 100%;
+    display: table;
+    
+}
+.slider-item-tablecell{
+    display: table-cell;
+    vertical-align: middle;
+  color: #fff;
+}
+.slider-item-tablecell h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+.slider-item-tablecell p{
+
+}
+.slider-item-tablecell h1{
+
+}
+.slider-btn:hover{
+text-decoration: none;
+  background-color: #ddd;
+  color: black;
+  border: 1px solid #000;
+
+  
+}
+.slider-btn{
+background-color: black;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  transition: 1s all;
+
+}
+/*sticky menu scc
+=================================
+*/
+
+#sticky.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    background-color: #000;
+    transition: 2s all;
+}
+
+body {
+    margin: 0px auto;
+}
+
+p {
+    
+}
+
+
+
+.homepage-header-menu-area{
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    display: block;
+}
+ul.main-menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+    background-color: aqua;
+}
+.main-menu li {
+  display: inline-block;
+}
+.main-menu a {
+  color: #000;
+  font-size: 15px;
+  padding: 10px 10px 10px 0px;
+  display: block;
+  text-decoration: none;
+}
+.main-menu a:hover{
+    color: black;
+    background-color: #ddd;
+}
+.stick ul.main-menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+    background-color:black;
+    transition: 1s all;
+}
+.stick .main-menu li {
+  display: inline-block;
+}
+.stick .main-menu a {
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 10px 10px 0px;
+  display: block;
+  text-decoration: none;
+}
+
+
+
+
+
+/*marquee-text-area
+========================
+*/
+
+.marquee-text-area-1{
+  overflow: hidden;
+}
+#newsticker-1{
+    overflow: hidden;
+    border: 1px solid #000;
+    margin-top: 10px;
+    background-color: #858585;
+}
+.marquee-warapper-1{
+  width: 100%;
+}
+.marquee-warapper-1 h1{   
+    margin: 0px;
+    position: absolute;
+    background-color: #FF3300;
+    font-size: 19px;
+    padding: 6px 9px 4px 5px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #000;
+
+}
+
+#newsticker-1 a{
+color: #fff;
+    font-size: 15px;
+    padding: 5px 0px;
+    display: inline-block;
+   /* border-left: 2px solid #000;*/
+    margin: 0px;
+    margin-left: -4px;
+    padding-left: 0px;
+    padding-right: 10px;
+
+}
+#newsticker-1 a:hover{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: #FF3300;
+}
+#newsticker-1 img{
+/*border: 1px solid #000;*/
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/*marque heading*/
+.mySlides-1 {display:none;
+  
+}
+@keyframes mymove {
+    0%   {background: red;}
+    25%  {background: blue;}
+    50%  {background: #0C1021;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.marquee-text-area-2{
+	overflow: hidden;
+}
+#newsticker-2{
+    overflow: hidden;
+    border: 1px solid #000;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.marquee-warapper-2{
+	width: 100%;
+}
+.marquee-warapper-2 h1{   
+    margin: 0px;
+    position: absolute;
+    background-color: green;
+    font-size: 19px;
+    padding: 6px 9px 4px 5px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #000;
+
+}
+
+#newsticker-2 a{
+color: #000;
+    font-size: 15px;
+    padding: 5px 0px;
+    display: inline-block;
+   /* border-left: 2px solid #000;*/
+    margin: 0px;
+    margin-left: -4px;
+    padding-left: 0px;
+    padding-right: 10px;
+
+}
+#newsticker-2 a:hover{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: red;
+}
+#newsticker-2 img{
+/*border: 1px solid #000;*/
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/*marque heading*/
+.mySlides-2 {display:none;
+  
+}
+@keyframes mymove {
+    0%   {background: red;}
+    25%  {background: blue;}
+    50%  {background: #0C1021;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+.{}
+.{}
+.{}
+.{}
+.{}
